@@ -9,10 +9,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="M.E.S.S BUDGETER"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/groceryBtn"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="Budget Now!"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/programBtn"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="Gov. Programs"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/couponBtn"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="Coupons"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="475dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
