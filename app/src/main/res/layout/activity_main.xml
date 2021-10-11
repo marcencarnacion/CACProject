@@ -21,12 +21,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.325" />
 
+
+    <ImageView
+        android:id="@+id/moneylogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/moneylogo"
+        android:clickable="true" />
+
     <Button
         android:id="@+id/groceryBtn"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
         android:backgroundTint="#719F9F"
+        android:fontFamily="@font/quicksand"
         android:onClick="groceryClick"
         android:text="Budget Now!"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -38,6 +47,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.5"
         android:backgroundTint="#719F9F"
+        android:fontFamily="@font/quicksand"
         android:onClick="govClick"
         android:text="Gov Programs"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -49,6 +59,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.5"
         android:backgroundTint="#719F9F"
+        android:fontFamily="@font/quicksand"
         android:onClick="couponClick"
         android:text="Coupons"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
