@@ -8,9 +8,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
         android:text="M.E.S.S BUDGETER"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -21,24 +25,33 @@
         android:id="@+id/groceryBtn"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
+        android:backgroundTint="#719F9F"
         android:onClick="groceryClick"
-        android:text="Budget Now!" />
+        android:text="Budget Now!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/programBtn"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
+        android:backgroundTint="#719F9F"
         android:onClick="govClick"
-        android:text="Gov Programs" />
+        android:text="Gov Programs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/couponBtn"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
+        android:backgroundTint="#719F9F"
         android:onClick="couponClick"
-        android:text="Coupons" />
+        android:text="Coupons"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp" />
 
 </LinearLayout>
