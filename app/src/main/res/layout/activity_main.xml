@@ -26,8 +26,9 @@
         android:id="@+id/moneylogo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
         app:srcCompat="@drawable/moneylogo"
-        android:clickable="true" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/groceryBtn"

@@ -22,13 +22,14 @@ public class MainActivity extends AppCompatActivity {
 
     {
 
-        public void onClick (View v){
+        public void onClick (View v)
+        {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
         intent.setData(Uri.parse("https://openclipart.org/detail/302454/bag-of-money-colour"));
         startActivity(intent);
-    }
+        }
     });
 }
 
