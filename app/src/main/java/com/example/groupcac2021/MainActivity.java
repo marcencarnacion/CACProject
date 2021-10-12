@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("openclipart.org/detail/302454/bag-of-money-colour"));
+        intent.setData(Uri.parse("https://openclipart.org/detail/302454/bag-of-money-colour"));
         startActivity(intent);
     }
     });
