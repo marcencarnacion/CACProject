@@ -23,11 +23,11 @@
 
 
     <ImageView
-        android:id="@+id/moneylogo"
+        android:id="@+id/money_logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:srcCompat="@drawable/moneylogo"
+        app:srcCompat="@drawable/money_logo"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -37,7 +37,6 @@
         android:layout_weight="0.5"
         android:backgroundTint="#719F9F"
         android:fontFamily="@font/quicksand"
-        android:onClick="groceryClick"
         android:text="Budget Now!"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp" />
@@ -49,7 +48,6 @@
         android:layout_weight="0.5"
         android:backgroundTint="#719F9F"
         android:fontFamily="@font/quicksand"
-        android:onClick="govClick"
         android:text="Gov Programs"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp" />
@@ -61,7 +59,6 @@
         android:layout_weight="0.5"
         android:backgroundTint="#719F9F"
         android:fontFamily="@font/quicksand"
-        android:onClick="couponClick"
         android:text="Coupons"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp" />
