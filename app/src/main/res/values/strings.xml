@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Group CAC 2021</string>
+
+    <!-- href tag is used to add link-->
+    <!-- link for home text view-->
+    <string name="hyperlink"><a href="https://www.geeksforgeeks.org/">geeksforgeeks.org</a></string>
+    <!-- link for practice textview-->
+    <string name="hyperlink2"><a href="https://practice.geeksforgeeks.org/">practice.geeksforgeeks.org</a></string>
+
 </resources>
