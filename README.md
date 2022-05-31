@@ -6,4 +6,6 @@
 
 **Project Description:** Our class was required to create an Android Studio phone application for the Congressional App Contest. (Java language.) Our budgeting apps purpose was to not only help the individual budget on essential projects, like groceries, but to provide links to services/programs that can help their dire financial situation. |
 
+Commits: 18 Commits
+
 **Partners?** Emiliano Melendrez, Marc Encarnacion, Steve Carl Cordero.
